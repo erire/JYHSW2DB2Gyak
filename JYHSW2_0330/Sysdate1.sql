@@ -1,0 +1,5 @@
+DECLARE
+datum char(50) := to_char(SYSTIMESTAMP, 'YYYY-MM-DD');
+BEGIN
+DBMS_OUTPUT.PUT_LINE(datum);
+END;
