@@ -1,0 +1,1 @@
+Update VASARLO SET NEV='Kék Alma' WHERE VID='v01';

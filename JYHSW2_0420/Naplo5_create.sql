@@ -1,0 +1,1 @@
+CREATE TABLE Naplo5 (Esemeny varchar(20) primary key, Adat varchar(100), Datum timestamp);
