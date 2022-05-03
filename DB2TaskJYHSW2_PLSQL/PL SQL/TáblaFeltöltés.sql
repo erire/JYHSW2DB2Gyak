@@ -1,0 +1,16 @@
+insert into telephely values(1, 06204475215,3504,'Miskolc','Valamilyen utca',15);
+insert into telephely values(2, 06209957546,3509,'Miskolc','Nem Létez? Utca',18);
+insert into telephely values(3, 06301875546,4001,'Debrecen','adatbázis utca',6);
+insert into meroeszkoz values(1,2017,5,3505,'Miskolc','Árpád utca',13,'y19','SPEC SENSORS');
+insert into meroeszkoz values(2,2017,6,3514,'Miskolc','Mit írjak ide utca',4,'rz34','SPEC SENSORS');
+insert into meroeszkoz values(3,2017,4,4440,'Tiszavasvári','Vásár utca',28,'y20','SPEC SENSORS');
+insert into szerelo values(1,'Kiss Sándor',TO_DATE('2017/11/30', 'yyyy/mm/dd'),1); 
+insert into szerelo values(2,'Havas Jon',TO_DATE('2018/11/15', 'yyyy/mm/dd'),2);
+insert into szerelo values(3,'Kovács Ferenc',TO_DATE('2017/11/29', 'yyyy/mm/dd'),3);
+insert into meresiadatok values(1,9, TO_DATE('2017/03/11', 'yyyy/mm/dd'),40,34,2,400,32,1);
+insert into meresiadatok values(2,12, TO_DATE('2017/03/12', 'yyyy/mm/dd'),20,28,2,359,31,2);
+insert into meresiadatok values(3,6, TO_DATE('2017/03/03', 'yyyy/mm/dd'),30,24,2,394,26,3);
+insert into meresiadatok values(4,7, TO_DATE('2017/03/05', 'yyyy/mm/dd'),31,26,2,399,27,1);
+insert into karbantartas values(1, TO_DATE('2017/11/25', 'yyyy/mm/dd'),1,1,1);
+insert into karbantartas values(2, TO_DATE('2017/11/27', 'yyyy/mm/dd'),2,2,2);
+insert into karbantartas values(3, TO_DATE('2017/11/24', 'yyyy/mm/dd'),3,3,3);
